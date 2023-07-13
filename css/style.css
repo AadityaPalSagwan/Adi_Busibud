@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.navbar{
+  border-bottom: 2px solid grey;
+  padding: 12px;
+}
+
+.mainBox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    min-height: 570px;
+}
+
+.mainBox .left .bigtext p{
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 20px;
+   
+}
+
+.mainBox .left .inputbox{
+    padding: 15px;
+}
+
+.mainBox .left .inputbox input{
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    font-size: 35px;
+    font-weight: 500;
+    background: rgb(4, 192, 255);
+    box-shadow: 0 0 8px 0 #a7a6a6;
+}
+
+.mainBox .left .inputbox input:hover{
+    background: rgb(27, 46, 46);
+    color: #fff;
+    
+}
+
+
+
+.mainBox .right img{
+    width: 350px;
+    height: 350px;
+}
+
+/* .detailsbox1{
+    height: 750px;
+    border: 2px solid black;
+} */
+
+
+.detailsbox1 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 150px;
+    gap: 1.5rem;
+  }
+  
+.box-container1 .box {
+    flex: 0 0 20rem;
+    padding: 25px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    box-shadow: 0 0 15px 0 #acacac;
+  }
+    
+.box-container1 .box p {
+    font-size: 1.5rem;
+    color: #000;
+    padding: 2.7rem 0;
+  }
+
+
+
+.detailsbox h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 180px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 220px;
+    gap: 1.5rem;
+  }
+  
+.box-container .box {
+    flex: 0 0 20rem;
+    padding: 25px;
+  }
+    
+.box-container .box p {
+    font-size: 1.5rem;
+    color: #000;
+    padding: 2.7rem 0;
+  }
+
+
+/* ---------------------leftside quickdetails--------------- */
+
+.quickdetails{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    position: relative;
+    top: 200px;
+    justify-content: center;
+    align-items: center;
+} 
+
+.quickdetails h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.quickdetails .leftside{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+
+.quickdetails .leftside .image{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quickdetails .leftside .image img{
+    width: 100px;
+}
+
+.quickdetails .leftside .image  p{
+    position: relative;
+    top: 25px;
+    left: 10px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.quickdetails .leftside .para p{
+    position: relative;
+    left: 15px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.quickdetails .leftside .inputbox{
+    padding: 15px;
+}
+
+.quickdetails .leftside .inputbox input{
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    font-size: 35px;
+    font-weight: 500;
+    background: rgb(4, 192, 255);
+    box-shadow: 0 0 8px 0 #a7a6a6;
+}
+
+.quickdetails .leftside .inputbox input:hover{
+    background: rgb(27, 46, 46);
+    color: #fff;
+}
+
+/* -----------------------rightside quickdetails-------------------------- */
+
+.quickdetails .rightside{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: relative;
+    right: 0;
+}
+
+.quickdetails .rightside .image{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quickdetails .rightside .image  img{
+    width: 100px;
+    position: absolute;
+    right: 0;
+}
+
+.quickdetails .rightside .image  p{
+    position: absolute;
+    /* top: 25px; */
+    right: 105px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.quickdetails .rightside .para p{
+    position: absolute;
+    top: 80px;
+    right: 90px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.quickdetails .rightside .inputbox{
+    padding: 15px;
+    position: absolute;
+    top: 155px;
+    right: 80px;
+}
+
+
+.quickdetails .rightside .inputbox input{
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+    font-size: 35px;
+    font-weight: 500;
+    background: rgb(4, 192, 255);
+    box-shadow: 0 0 8px 0 #a7a6a6;
+}
+
+.quickdetails .rightside .inputbox input:hover{
+    background: rgb(27, 46, 46);
+    color: #fff;
+}
+
+/* ---------------------overlapping start----------------------- */
+
+
+.overlaping-slider{
+    height: 410px;
+    position: relative;
+    top: 240px;
+}
+
+.overlaping-slider h2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.overlaping-slider .lappingbox{
+    display: flex;
+}
+
+.overlaping-slider .star-line{
+    display: flex;
+    position: absolute;
+}
+
+.overlaping-slider .star-line img{
+    width: 70px;
+}
+
+.overlaping-slider .star-line p{
+    font-size: 22px;
+    position: relative;
+    top: 27px;
+    left: 10px;
+    font-weight: 500;
+}
+
+.cards::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.cards {
+    display: flex;
+    height: 400px;
+    position: relative;
+    left: 40px;
+    overflow: scroll;
+}
+
+.cards .cards1 {
+    display: flex;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    width: 275px;
+    height: 240px;
+    position: relative;
+    top: 75px;
+
+}
+
+.cards .cards1:hover{
+    border: 1px solid #00ffff;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 0 #808080;
+}
+
+.cards .cards1 .card-item .upper-side {
+    /* background-color: yellow; */
+    width: 250px;
+    height: 120px;
+}
+
+.cards .cards1 .card-item .image img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.cards .cards1 .card-item .name {
+    position: absolute;
+    left: 130px;
+    top: 50px;
+    font-size: 30px;
+}
+
+.cards .cards1 .card-item .down-side .para {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    position: absolute;
+    width: 200px;
+    top: 150px;
+    left: 30px;
+}
+
+
+/* -----------------company name----------------------------- */
+
+.company-name{
+    position: relative;
+    top: 300px;
+    height: 460px;
+    /* background-color: red; */
+}
+
+.company-name h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.company-name .container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.company-name .container .contain-box{
+    flex: 0 0 25rem;
+    height: 200px;
+    padding: 27px;
+}
+
+.company-name .container .contain-box img{
+    width: 250px;
+}
+
+.company-name .container .contain-box p{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ------------------footer start-------------------- */
+
+.footer-box{
+    height: 10vh;
+    border-top: 2px solid #808080;
+    position: relative;
+    top: 510px;
+
+}
+
+.footer-box .footer-details{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 20px;
+}
+
+.footer-box .footer-details .left{
+    width: 80%;
+}
+
+.footer-box .footer-details .left p{
+    font-size: 20px;
+    color: #666;
+}
+
+.footer-box .footer-details .left span{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer-box .footer-details .left span a{
+    text-decoration: none;
+    color: #0000ff;
+}
+
+.footer-box .footer-details .left span a:hover{
+    text-decoration: underline;
+    color: #3232a3;
+}
+
+.footer-box .footer-details .right{
+    width: 20%;
+    /* float: right;
+    margin-bottom: 20px; */
+}
+
+.footer-box .footer-details .right p{
+    font-size: 20px;
+    color: #666;
+}
+
+.footer-box .footer-details .right a{
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #0000ff;
+}
+
+.footer-box .footer-details .right span a:hover{
+    text-decoration: underline;
+    color: #3232a3;
+    
+}
+
